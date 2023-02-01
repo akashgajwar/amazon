@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './Header';
+
 
 function App() {
   return (
+    //BEM - Block Element Modifier
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Hello clever programer, lets build the Amazon clone app ): </h1> */}
+      <Header />
+      {/*Home*/} 
     </div>
   );
 }
