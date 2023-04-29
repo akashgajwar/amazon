@@ -35,6 +35,8 @@
   }
 
 .product > button {
+    padding: .5rem;
+    border-radius: .5rem;
     background: #f0c14b;
     border: 1px solid;
     margin-top: 10px;
